@@ -16,11 +16,11 @@ public class FoodServiceTip implements Tippable {
     private static final String BILL_ENTRY_ERR
             = "Error: bill must be greater than or equal to " + MIN_BILL;
 
-    private static final double TERRIBLE_RATE = .5;
-    private static final double POOR_RATE = 0.10;
-    private static final double FAIR_RATE = 0.15;
-    private static final double GOOD_RATE = 0.20;
-    private static final double EXCELLENT_RATE = .25;
+    private double TERRIBLE_RATE = .5;
+    private double POOR_RATE = 0.10;
+    private double FAIR_RATE = 0.15;
+    private double GOOD_RATE = 0.20;
+    private double EXCELLENT_RATE = .25;
 
     private double bill;
 
