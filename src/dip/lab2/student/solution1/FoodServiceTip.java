@@ -33,7 +33,7 @@ public class FoodServiceTip implements Tippable {
 
     @Override
     public final double tipEmployee() {
-        double tip = 0.00; // always initialize local variables
+        double tip = 0.00;
 
         switch (serviceQuality) {
             case TERRIBLE:
@@ -63,7 +63,6 @@ public class FoodServiceTip implements Tippable {
     }
 
     public final void setServiceRating(ServiceQuality q) {
-        // No need to validate because enums provide type safety!
         serviceQuality = q;
     }
 
