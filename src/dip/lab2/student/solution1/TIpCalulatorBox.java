@@ -5,8 +5,7 @@
  */
 package dip.lab2.student.solution1;
 
-import javax.swing.JOptionPane;
-import javax.swing.JRadioButton;
+import javax.swing.*;
 
 /**
  *
@@ -237,7 +236,7 @@ public class TIpCalulatorBox extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void billTotalFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_billTotalFieldActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_billTotalFieldActionPerformed
 
     private void foodServiceTipButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_foodServiceTipButtonActionPerformed
